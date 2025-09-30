@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="tabs">
+        <button class="tab active" onclick="openCurrentTab(event, 'tab1')">First Tab</button>
+        <button class="tab" onclick="openCurrentTab(event, 'tab2')">Second Tab</button>
+        <button class="tab" onclick="openCurrentTab(event, 'tab3')">Third Tab</button>
+        <button class="tab" onclick="openCurrentTab(event, 'tab4')">Fourth Tab</button>
+    </div>
+    <div class="content">
+        <div class="content-tab" id="tab1" >
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore debitis maxime reiciendis ex eligendi aliquid? <br> Possimus distinctio quae a hic quam obcaecati ratione dolorem atque neque. A cupiditate minima et.</p>
+            <img src="https://assets.roadmap.sh/guest/simple-tabs-8e6gy.png" style="max-width: 100%; max-height: 100%;" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, laudantium.</p>
+        </div>
+        <div class="content-tab" id="tab2" style="display: none;">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, laudantium.</p>
+            <img src="" alt="">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore debitis maxime reiciendis ex eligendi aliquid? Possimus distinctio quae a hic quam obcaecati ratione dolorem atque neque. A cupiditate minima et.</p>
+        </div>
+        <div class="content-tab" id="tab3" style="display: none;">
+            <h2>Content for Tab 3</h2>
+            <p>This is the content of Tab 3.</p>
+        </div>
+        <div class="content-tab" id="tab4" style="display: none;">
+            <h2>Content for Tab 4</h2>
+            <p>This is the content of Tab 4.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
